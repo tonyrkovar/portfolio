@@ -43,6 +43,17 @@
 			);
 		});
 	});
+	$(document).ready(function () {
+		$("#project-nav ul li a").click(function () {
+			var target = $(this.hash);
+			$("html, body").animate(
+				{
+					scrollTop: $(target).offset().top - 50,
+				},
+				750
+			);
+		});
+	});
 
 	// Title Bar.
 	$(
