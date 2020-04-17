@@ -1840,6 +1840,31 @@ button.style3:active,
 .button.style3:active {
 	background-color: #1f232b;
 }
+input[type="button"].style4,
+input[type="submit"].style4,
+input[type="reset"].style4,
+button.style4,
+.button.style4 {
+	margin: 0 -10rem 0 0;
+	background: #2f333b url("images/overlay.png");
+	color: #fff;
+}
+
+input[type="button"].style4:hover,
+input[type="submit"].style4:hover,
+input[type="reset"].style4:hover,
+button.style4:hover,
+.button.style4:hover {
+	background-color: #3f434b;
+}
+
+input[type="button"].style4:active,
+input[type="submit"].style4:active,
+input[type="reset"].style4:active,
+button.style4:active,
+.button.style4:active {
+	background-color: #1f232b;
+}
 
 /* List */
 
