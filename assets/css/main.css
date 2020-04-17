@@ -2355,9 +2355,15 @@ ul.actions.special {
 	text-align: center;
 }
 
-#intro p.style1 {
-	font-size: 1.5em;
-	letter-spacing: 0.075em;
+#intro img {
+	width: 150px;
+	margin-bottom: 2em;
+}
+#intro .img-text {
+	/* display: flex;
+	justify-content: center;
+	align-items: center; */
+	/* width: 80%; */
 }
 
 #intro p.style2 {
