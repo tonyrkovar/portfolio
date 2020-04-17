@@ -326,6 +326,7 @@ form {
 	flex-wrap: wrap;
 	box-sizing: border-box;
 	align-items: stretch;
+	margin-bottom: 3.5rem;
 }
 
 .row > * {
@@ -454,6 +455,7 @@ form {
 
 .row > .col-12 {
 	width: 100%;
+	margin: 0 auto;
 }
 
 .row > .off-12 {
@@ -1551,6 +1553,7 @@ article:last-child {
 header.style1 {
 	text-align: center;
 	padding: 3em 0 3em 0;
+	border-top: 1px dashed gray;
 }
 
 header.style1 h2 {
@@ -1950,6 +1953,7 @@ ul.actions.special {
 
 .feature-list {
 	max-width: 58em;
+	margin-bottom: 1rem;
 	margin-left: auto;
 	margin-right: auto;
 	position: relative;
@@ -2390,6 +2394,61 @@ ul.actions.special {
 }
 
 /* Highlights */
+#project-nav {
+	position: relative;
+	display: block;
+	/* margin-top: 1rem; */
+	margin-bottom: 3rem;
+	top: 2.5em;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+
+#project-nav > ul {
+	display: inline-block;
+	border-radius: 0.35em;
+	box-shadow: inset 0px 0px 1px 1px rgba(0, 0, 0, 0.15);
+	padding: 0 1.5em 0 1.5em;
+}
+
+#project-nav > ul > li {
+	display: inline-block;
+	text-align: center;
+	padding: 0 1.5em 0 1.5em;
+}
+
+#project-nav > ul > li > ul {
+	display: none;
+}
+
+#project-nav > ul > li > a,
+#project-nav > ul > li > span {
+	display: block;
+	color: black;
+	color: rgba(0, 0, 0, 0.75);
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 0.7em;
+	letter-spacing: 0.25em;
+	height: 5em;
+	line-height: 5em;
+	-moz-transition: all 0.25s ease-in-out;
+	-webkit-transition: all 0.25s ease-in-out;
+	-o-transition: all 0.25s ease-in-out;
+	-ms-transition: all 0.25s ease-in-out;
+	transition: all 0.25s ease-in-out;
+	outline: 0;
+}
+
+#project-nav > ul > li:hover > a {
+	color: gray;
+}
+
+#project-nav > ul > li.active > a,
+#project-nav > ul > li.active > span {
+	color: #fff;
+}
 
 #highlights .highlight {
 	text-align: center;
@@ -2405,7 +2464,7 @@ ul.actions.special {
 }
 
 /* Main */
-
+/* Project Nav */
 /* Footer */
 
 #footer {
@@ -2934,6 +2993,7 @@ ul.actions.special {
 		font-size: 1.5em;
 		letter-spacing: 0.075em;
 		line-height: 1.25em;
+		padding-top: 1em;
 	}
 
 	header.style1 p {
@@ -3132,4 +3192,9 @@ ul.actions.special {
 	#copyright ul li:first-child {
 		margin-top: 0;
 	}
+}
+
+/* Main */
+section#main {
+	padding-top: 0 !important;
 }
