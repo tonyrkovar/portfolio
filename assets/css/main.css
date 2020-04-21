@@ -2359,12 +2359,6 @@ ul.actions.special {
 	width: 150px;
 	margin-bottom: 2em;
 }
-#intro .img-text {
-	/* display: flex;
-	justify-content: center;
-	align-items: center; */
-	/* width: 80%; */
-}
 
 #intro p.style2 {
 	font-weight: 700;
@@ -2470,6 +2464,7 @@ ul.actions.special {
 }
 
 /* Main */
+
 /* Project Nav */
 /* Footer */
 
@@ -3203,4 +3198,10 @@ ul.actions.special {
 /* Main */
 section#main {
 	padding-top: 0 !important;
+}
+
+#main .ag-img {
+	width: 30em;
+	height: 30em;
+	margin-left: 3em;
 }
